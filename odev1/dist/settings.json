@@ -1,0 +1,13 @@
+{
+  "screen_width": 800,
+  "screen_height": 600,
+  "fps": 60,
+  "fullscreen": false,
+  "vsync": true,
+  "music_volume": 70,
+  "sfx_volume": 80,
+  "mute": false,
+  "language": "tr",
+  "show_fps": false,
+  "difficulty": "Normal"
+}

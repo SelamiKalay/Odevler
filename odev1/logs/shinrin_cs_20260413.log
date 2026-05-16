@@ -1,0 +1,497 @@
+2026-04-13 00:12:36 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:12:36 [INFO] ShinrinCS.Main: Shinrin CS başlatılıyor...
+2026-04-13 00:12:36 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:12:36 [DEBUG] ShinrinCS.InstallationGuard: Registry anahtarı yazıldı: Software\ShinrinCS
+2026-04-13 00:12:36 [DEBUG] ShinrinCS.InstallationGuard: Marker dosyası yazıldı: C:\Users\selam\AppData\Local\.shinrin_cs_installed
+2026-04-13 00:12:36 [INFO] ShinrinCS.InstallationGuard: Kurulum kaydedildi: GUID=76dcf31f-3782-45e8-9c76-809fb490d9ed
+2026-04-13 00:12:36 [INFO] ShinrinCS.Main: İlk çalışma — kurulum kaydedildi: 76dcf31f-3782-45e8-9c76-809fb490d9ed
+2026-04-13 00:12:36 [CRITICAL] ShinrinCS.Main: Kritik hata: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\selam\Desktop\oyun\main.py", line 41, in main
+    from engine.game_engine import GameEngine
+  File "C:\Users\selam\Desktop\oyun\engine\game_engine.py", line 12, in <module>
+    from engine.scene_manager import SceneManager
+  File "C:\Users\selam\Desktop\oyun\engine\scene_manager.py", line 15, in <module>
+    class SceneManager:
+  File "C:\Users\selam\Desktop\oyun\engine\scene_manager.py", line 134, in SceneManager
+    def get_current_scene_name(self) -> str | None:
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+2026-04-13 00:13:39 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:13:39 [INFO] ShinrinCS.Main: Shinrin CS başlatılıyor...
+2026-04-13 00:13:39 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:13:39 [INFO] ShinrinCS.InstallationGuard: Kurulum kaydı bulundu (registry=True, marker=True)
+2026-04-13 00:13:39 [INFO] ShinrinCS.Main: Kurulum kaydı doğrulandı — oyun başlatılıyor.
+2026-04-13 00:13:39 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:13:39 [INFO] ShinrinCS.GameEngine: Shinrin CS — Motor başlatılıyor...
+2026-04-13 00:13:39 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:13:39 [INFO] ShinrinCS.InputHandler: InputHandler başlatıldı.
+2026-04-13 00:13:39 [INFO] ShinrinCS.AssetManager: AssetManager başlatıldı.
+2026-04-13 00:13:39 [INFO] ShinrinCS.Camera: Kamera başlatıldı (800x600).
+2026-04-13 00:13:39 [INFO] ShinrinCS.Renderer: Renderer başlatıldı.
+2026-04-13 00:13:39 [INFO] ShinrinCS.SceneManager: SceneManager başlatıldı.
+2026-04-13 00:13:39 [INFO] ShinrinCS.SaveManager: SaveManager başlatıldı. Dizin: saves
+2026-04-13 00:13:39 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'title'
+2026-04-13 00:13:39 [DEBUG] ShinrinCS.GameEngine: Sahneler kaydedildi.
+2026-04-13 00:13:39 [INFO] ShinrinCS.GameEngine: Motor başarıyla başlatıldı.
+2026-04-13 00:13:39 [INFO] ShinrinCS.TitleScene: Başlık sahnesine girildi.
+2026-04-13 00:13:39 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'title'
+2026-04-13 00:13:39 [INFO] ShinrinCS.GameEngine: Oyun döngüsü başladı. FPS: 60
+2026-04-13 00:13:39 [CRITICAL] ShinrinCS.Main: Kritik hata: invalid color argument
+Traceback (most recent call last):
+  File "C:\Users\selam\Desktop\oyun\main.py", line 43, in main
+    engine.run()
+  File "C:\Users\selam\Desktop\oyun\engine\game_engine.py", line 112, in run
+    self._render()
+  File "C:\Users\selam\Desktop\oyun\engine\game_engine.py", line 131, in _render
+    self._scene_manager.draw(self._screen)
+  File "C:\Users\selam\Desktop\oyun\engine\scene_manager.py", line 126, in draw
+    self._current_scene.draw(surface)
+  File "C:\Users\selam\Desktop\oyun\scenes\title_scene.py", line 153, in draw
+    self._draw_background(surface)
+  File "C:\Users\selam\Desktop\oyun\scenes\title_scene.py", line 209, in _draw_background
+    pygame.draw.circle(
+ValueError: invalid color argument
+2026-04-13 00:14:00 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:14:00 [INFO] ShinrinCS.Main: Shinrin CS başlatılıyor...
+2026-04-13 00:14:00 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:14:00 [INFO] ShinrinCS.InstallationGuard: Kurulum kaydı bulundu (registry=True, marker=True)
+2026-04-13 00:14:00 [INFO] ShinrinCS.Main: Kurulum kaydı doğrulandı — oyun başlatılıyor.
+2026-04-13 00:14:00 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:14:00 [INFO] ShinrinCS.GameEngine: Shinrin CS — Motor başlatılıyor...
+2026-04-13 00:14:00 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:14:00 [INFO] ShinrinCS.InputHandler: InputHandler başlatıldı.
+2026-04-13 00:14:00 [INFO] ShinrinCS.AssetManager: AssetManager başlatıldı.
+2026-04-13 00:14:00 [INFO] ShinrinCS.Camera: Kamera başlatıldı (800x600).
+2026-04-13 00:14:00 [INFO] ShinrinCS.Renderer: Renderer başlatıldı.
+2026-04-13 00:14:00 [INFO] ShinrinCS.SceneManager: SceneManager başlatıldı.
+2026-04-13 00:14:00 [INFO] ShinrinCS.SaveManager: SaveManager başlatıldı. Dizin: saves
+2026-04-13 00:14:00 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'title'
+2026-04-13 00:14:00 [DEBUG] ShinrinCS.GameEngine: Sahneler kaydedildi.
+2026-04-13 00:14:00 [INFO] ShinrinCS.GameEngine: Motor başarıyla başlatıldı.
+2026-04-13 00:14:00 [INFO] ShinrinCS.TitleScene: Başlık sahnesine girildi.
+2026-04-13 00:14:00 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'title'
+2026-04-13 00:14:00 [INFO] ShinrinCS.GameEngine: Oyun döngüsü başladı. FPS: 60
+2026-04-13 00:14:41 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:41 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:43 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:43 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:43 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:43 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:43 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:43 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:44 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:44 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:45 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:45 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:45 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:45 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:45 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:45 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:45 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:45 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:46 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Devam Et'
+2026-04-13 00:14:46 [INFO] ShinrinCS.TitleScene: Kayıtlı oyun yüklenecek.
+2026-04-13 00:14:48 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:48 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:49 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Ayarlar'
+2026-04-13 00:14:49 [INFO] ShinrinCS.TitleScene: Ayarlar menüsü açılacak.
+2026-04-13 00:14:50 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Devam Et'
+2026-04-13 00:14:50 [INFO] ShinrinCS.TitleScene: Kayıtlı oyun yüklenecek.
+2026-04-13 00:14:51 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:14:51 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılacak (henüz WorldScene yok).
+2026-04-13 00:14:52 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Çıkış'
+2026-04-13 00:14:52 [INFO] ShinrinCS.GameEngine: Oyundan çıkış istendi.
+2026-04-13 00:14:52 [INFO] ShinrinCS.GameEngine: Motor kapatılıyor...
+2026-04-13 00:14:52 [INFO] ShinrinCS.Settings: Ayarlar kaydedildi: settings.json
+2026-04-13 00:14:52 [INFO] ShinrinCS.GameEngine: Motor başarıyla kapatıldı.
+2026-04-13 00:14:52 [INFO] ShinrinCS.Main: Shinrin CS kapatıldı.
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Character: Slime hasar aldı: 19 (ham: 20, savunma: 2) → HP: 31/50
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.2 | ATK:15 DEF:10 SPD:8
+2026-04-13 00:24:00 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 2
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.3 | ATK:18 DEF:12 SPD:9
+2026-04-13 00:24:00 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 3
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.4 | ATK:21 DEF:14 SPD:10
+2026-04-13 00:24:00 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 4
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.5 | ATK:24 DEF:16 SPD:11
+2026-04-13 00:24:00 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 5
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.6 | ATK:27 DEF:18 SPD:12
+2026-04-13 00:24:00 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 6
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.7 | ATK:30 DEF:20 SPD:13
+2026-04-13 00:24:00 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 7
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.8 | ATK:33 DEF:22 SPD:14
+2026-04-13 00:24:00 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 8
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.9 | ATK:36 DEF:24 SPD:15
+2026-04-13 00:24:00 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 9
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Character: Test iyileşti: +0 HP → 120/120
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Character: Slime hasar aldı: 999 (ham: 999, savunma: 0) → HP: 0/10
+2026-04-13 00:24:00 [INFO] ShinrinCS.Character: Slime yenildi!
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Player: Altın eklendi: +100 → Toplam: 100
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Player: Altın harcandı: -30 → Kalan: 70
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Player: Yetersiz altın: 70 < 999
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Character: Test hasar aldı: 16 (ham: 20, savunma: 8) → HP: 104/120
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Character: Test iyileşti: +16 HP → 120/120
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Player: Eşya eklendi: 'İksir'
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Kitsune' (kitsune) pos=(100, 200)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: 'Slime' loot: ['slime_gel']
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Player: Eşya eklendi: 'Bamboo Kılıç'
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Ekipman kuşanıldı: 'Bamboo Kılıç' → slot 'weapon'
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Köylü' (rol: villager)
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Character: Kaito hasar aldı: 36 (ham: 40, savunma: 8) → HP: 84/120
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Character: Kaito iyileşti: +30 HP → 114/120
+2026-04-13 00:24:00 [INFO] ShinrinCS.Consumable: 'İksir' kullanıldı → Kaito +30 HP iyileşti.
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Oni' (oni) pos=(100, 100)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Tüccar' (rol: merchant)
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Şifacı' (rol: healer)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Character: Kaito hasar aldı: 46 (ham: 50, savunma: 8) → HP: 74/120
+2026-04-13 00:24:00 [INFO] ShinrinCS.NPC: NPC 'Şifacı' ile etkileşim (healer)
+2026-04-13 00:24:00 [INFO] ShinrinCS.NPC: Şifacı 'Şifacı' oyuncuyu iyileştirdi.
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.1 | ATK:15 DEF:10 SPD:8
+2026-04-13 00:24:00 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(100, 100)
+2026-04-13 00:24:00 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Köylü' (rol: villager)
+2026-04-13 00:31:32 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:31:32 [INFO] ShinrinCS.Main: Shinrin CS başlatılıyor...
+2026-04-13 00:31:32 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:31:32 [INFO] ShinrinCS.InstallationGuard: Kurulum kaydı bulundu (registry=True, marker=True)
+2026-04-13 00:31:32 [INFO] ShinrinCS.Main: Kurulum kaydı doğrulandı — oyun başlatılıyor.
+2026-04-13 00:31:32 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:31:32 [INFO] ShinrinCS.GameEngine: Shinrin CS — Motor başlatılıyor...
+2026-04-13 00:31:32 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:31:32 [INFO] ShinrinCS.Settings: Ayarlar yüklendi: settings.json
+2026-04-13 00:31:32 [INFO] ShinrinCS.InputHandler: InputHandler başlatıldı.
+2026-04-13 00:31:32 [INFO] ShinrinCS.AssetManager: AssetManager başlatıldı.
+2026-04-13 00:31:32 [INFO] ShinrinCS.Camera: Kamera başlatıldı (800x600).
+2026-04-13 00:31:32 [INFO] ShinrinCS.Renderer: Renderer başlatıldı.
+2026-04-13 00:31:32 [INFO] ShinrinCS.SceneManager: SceneManager başlatıldı.
+2026-04-13 00:31:32 [INFO] ShinrinCS.SaveManager: SaveManager başlatıldı. Dizin: saves
+2026-04-13 00:31:32 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'title'
+2026-04-13 00:31:32 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'world'
+2026-04-13 00:31:32 [DEBUG] ShinrinCS.GameEngine: Sahneler kaydedildi.
+2026-04-13 00:31:32 [INFO] ShinrinCS.GameEngine: Motor başarıyla başlatıldı.
+2026-04-13 00:31:32 [INFO] ShinrinCS.TitleScene: Başlık sahnesine girildi.
+2026-04-13 00:31:32 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'title'
+2026-04-13 00:31:32 [INFO] ShinrinCS.GameEngine: Oyun döngüsü başladı. FPS: 60
+2026-04-13 00:31:50 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:31:50 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılıyor → WorldScene
+2026-04-13 00:31:50 [INFO] ShinrinCS.TitleScene: Başlık sahnesinden çıkıldı.
+2026-04-13 00:31:50 [DEBUG] ShinrinCS.SceneManager: Sahneden çıkıldı: 'title'
+2026-04-13 00:31:50 [INFO] ShinrinCS.WorldScene: Dünya sahnesine girildi.
+2026-04-13 00:31:50 [INFO] ShinrinCS.WorldMap: WorldMap başlatıldı.
+2026-04-13 00:31:50 [DEBUG] ShinrinCS.Zone: Bölge oluşturuldu: 'Shinrin Köyü' (40x30)
+2026-04-13 00:31:50 [INFO] ShinrinCS.TileMap: Köy haritası oluşturuldu: 40x30
+2026-04-13 00:31:50 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(80, 80)
+2026-04-13 00:31:50 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Tanaka' (rol: merchant)
+2026-04-13 00:31:50 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Yuki' (rol: quest_giver)
+2026-04-13 00:31:50 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Sakura' (rol: healer)
+2026-04-13 00:31:50 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(8, 8)
+2026-04-13 00:31:50 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Orman Slime' (slime) pos=(30, 20)
+2026-04-13 00:31:50 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Oni' (oni) pos=(35, 8)
+2026-04-13 00:31:50 [DEBUG] ShinrinCS.WorldMap: Bölge eklendi: 'shinrin_village'
+2026-04-13 00:31:50 [INFO] ShinrinCS.WorldMap: Bölge yüklendi: 'shinrin_village'
+2026-04-13 00:31:50 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'world'
+2026-04-13 00:35:52 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:35:52 [INFO] ShinrinCS.Main: Shinrin CS başlatılıyor...
+2026-04-13 00:35:52 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:35:52 [INFO] ShinrinCS.InstallationGuard: Kurulum kaydı bulundu (registry=True, marker=True)
+2026-04-13 00:35:52 [INFO] ShinrinCS.Main: Kurulum kaydı doğrulandı — oyun başlatılıyor.
+2026-04-13 00:35:53 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:35:53 [INFO] ShinrinCS.GameEngine: Shinrin CS — Motor başlatılıyor...
+2026-04-13 00:35:53 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:35:53 [INFO] ShinrinCS.Settings: Ayarlar yüklendi: settings.json
+2026-04-13 00:35:53 [INFO] ShinrinCS.InputHandler: InputHandler başlatıldı.
+2026-04-13 00:35:53 [INFO] ShinrinCS.AssetManager: AssetManager başlatıldı.
+2026-04-13 00:35:53 [INFO] ShinrinCS.Camera: Kamera başlatıldı (800x600).
+2026-04-13 00:35:53 [INFO] ShinrinCS.Renderer: Renderer başlatıldı.
+2026-04-13 00:35:53 [INFO] ShinrinCS.SceneManager: SceneManager başlatıldı.
+2026-04-13 00:35:53 [INFO] ShinrinCS.SaveManager: SaveManager başlatıldı. Dizin: saves
+2026-04-13 00:35:53 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'title'
+2026-04-13 00:35:53 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'world'
+2026-04-13 00:35:53 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'pause'
+2026-04-13 00:35:53 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'inventory'
+2026-04-13 00:35:53 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'game_over'
+2026-04-13 00:35:53 [DEBUG] ShinrinCS.GameEngine: Sahneler kaydedildi.
+2026-04-13 00:35:53 [INFO] ShinrinCS.GameEngine: Motor başarıyla başlatıldı.
+2026-04-13 00:35:53 [INFO] ShinrinCS.TitleScene: Başlık sahnesine girildi.
+2026-04-13 00:35:53 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'title'
+2026-04-13 00:35:53 [INFO] ShinrinCS.GameEngine: Oyun döngüsü başladı. FPS: 60
+2026-04-13 00:36:09 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Çıkış'
+2026-04-13 00:36:09 [INFO] ShinrinCS.GameEngine: Oyundan çıkış istendi.
+2026-04-13 00:36:09 [INFO] ShinrinCS.GameEngine: Motor kapatılıyor...
+2026-04-13 00:36:09 [INFO] ShinrinCS.Settings: Ayarlar kaydedildi: settings.json
+2026-04-13 00:36:09 [INFO] ShinrinCS.GameEngine: Motor başarıyla kapatıldı.
+2026-04-13 00:36:09 [INFO] ShinrinCS.Main: Shinrin CS kapatıldı.
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Character: Slime hasar aldı: 19 (ham: 20, savunma: 2) → HP: 31/50
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.2 | ATK:15 DEF:10 SPD:8
+2026-04-13 00:36:33 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 2
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.3 | ATK:18 DEF:12 SPD:9
+2026-04-13 00:36:33 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 3
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.4 | ATK:21 DEF:14 SPD:10
+2026-04-13 00:36:33 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 4
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.5 | ATK:24 DEF:16 SPD:11
+2026-04-13 00:36:33 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 5
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.6 | ATK:27 DEF:18 SPD:12
+2026-04-13 00:36:33 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 6
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.7 | ATK:30 DEF:20 SPD:13
+2026-04-13 00:36:33 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 7
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.8 | ATK:33 DEF:22 SPD:14
+2026-04-13 00:36:33 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 8
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.9 | ATK:36 DEF:24 SPD:15
+2026-04-13 00:36:33 [INFO] ShinrinCS.Character: Test seviye atladı! → Seviye 9
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Character: Test iyileşti: +0 HP → 120/120
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Character: Slime hasar aldı: 999 (ham: 999, savunma: 0) → HP: 0/10
+2026-04-13 00:36:33 [INFO] ShinrinCS.Character: Slime yenildi!
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Player: Altın eklendi: +100 → Toplam: 100
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Player: Altın harcandı: -30 → Kalan: 70
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Player: Yetersiz altın: 70 < 999
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Character: Test hasar aldı: 16 (ham: 20, savunma: 8) → HP: 104/120
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Character: Test iyileşti: +16 HP → 120/120
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Player: Eşya eklendi: 'İksir'
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Kitsune' (kitsune) pos=(100, 200)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: 'Slime' loot: ['slime_gel']
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Player: Eşya eklendi: 'Bamboo Kılıç'
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Ekipman kuşanıldı: 'Bamboo Kılıç' → slot 'weapon'
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Köylü' (rol: villager)
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Test' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Character: Kaito hasar aldı: 36 (ham: 40, savunma: 8) → HP: 84/120
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Character: Kaito iyileşti: +30 HP → 114/120
+2026-04-13 00:36:33 [INFO] ShinrinCS.Consumable: 'İksir' kullanıldı → Kaito +30 HP iyileşti.
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Oni' (oni) pos=(100, 100)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Tüccar' (rol: merchant)
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Şifacı' (rol: healer)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Character: Kaito hasar aldı: 46 (ham: 50, savunma: 8) → HP: 74/120
+2026-04-13 00:36:33 [INFO] ShinrinCS.NPC: NPC 'Şifacı' ile etkileşim (healer)
+2026-04-13 00:36:33 [INFO] ShinrinCS.NPC: Şifacı 'Şifacı' oyuncuyu iyileştirdi.
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(0, 0)
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu seviye atladı → Lv.1 | ATK:15 DEF:10 SPD:8
+2026-04-13 00:36:33 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(0.0, 0.0)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(100, 100)
+2026-04-13 00:36:33 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Köylü' (rol: villager)
+2026-04-13 00:55:54 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:55:54 [INFO] ShinrinCS.Main: Shinrin CS başlatılıyor...
+2026-04-13 00:55:54 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 00:55:54 [INFO] ShinrinCS.InstallationGuard: Kurulum kaydı bulundu (registry=True, marker=True)
+2026-04-13 00:55:54 [INFO] ShinrinCS.Main: Kurulum kaydı doğrulandı — oyun başlatılıyor.
+2026-04-13 00:55:55 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:55:55 [INFO] ShinrinCS.GameEngine: Shinrin CS — Motor başlatılıyor...
+2026-04-13 00:55:55 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 00:55:55 [INFO] ShinrinCS.Settings: Ayarlar yüklendi: settings.json
+2026-04-13 00:55:55 [INFO] ShinrinCS.InputHandler: InputHandler başlatıldı.
+2026-04-13 00:55:55 [INFO] ShinrinCS.AssetManager: AssetManager başlatıldı.
+2026-04-13 00:55:55 [INFO] ShinrinCS.Camera: Kamera başlatıldı (800x600).
+2026-04-13 00:55:55 [INFO] ShinrinCS.Renderer: Renderer başlatıldı.
+2026-04-13 00:55:55 [INFO] ShinrinCS.SceneManager: SceneManager başlatıldı.
+2026-04-13 00:55:55 [INFO] ShinrinCS.SaveManager: SaveManager başlatıldı. Dizin: saves
+2026-04-13 00:55:55 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'title'
+2026-04-13 00:55:55 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'world'
+2026-04-13 00:55:55 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'pause'
+2026-04-13 00:55:55 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'inventory'
+2026-04-13 00:55:55 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'game_over'
+2026-04-13 00:55:55 [DEBUG] ShinrinCS.GameEngine: Sahneler kaydedildi.
+2026-04-13 00:55:55 [INFO] ShinrinCS.GameEngine: Motor başarıyla başlatıldı.
+2026-04-13 00:55:55 [INFO] ShinrinCS.TitleScene: Başlık sahnesine girildi.
+2026-04-13 00:55:55 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'title'
+2026-04-13 00:55:55 [INFO] ShinrinCS.GameEngine: Oyun döngüsü başladı. FPS: 60
+2026-04-13 00:56:02 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Devam Et'
+2026-04-13 00:56:02 [INFO] ShinrinCS.TitleScene: Kayıtlı oyun yüklenecek.
+2026-04-13 00:56:04 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Devam Et'
+2026-04-13 00:56:04 [INFO] ShinrinCS.TitleScene: Kayıtlı oyun yüklenecek.
+2026-04-13 00:56:06 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Devam Et'
+2026-04-13 00:56:06 [INFO] ShinrinCS.TitleScene: Kayıtlı oyun yüklenecek.
+2026-04-13 00:56:06 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Devam Et'
+2026-04-13 00:56:06 [INFO] ShinrinCS.TitleScene: Kayıtlı oyun yüklenecek.
+2026-04-13 00:56:12 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 00:56:12 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılıyor → WorldScene
+2026-04-13 00:56:12 [INFO] ShinrinCS.TitleScene: Başlık sahnesinden çıkıldı.
+2026-04-13 00:56:12 [DEBUG] ShinrinCS.SceneManager: Sahneden çıkıldı: 'title'
+2026-04-13 00:56:12 [INFO] ShinrinCS.WorldScene: Dünya sahnesine girildi.
+2026-04-13 00:56:12 [INFO] ShinrinCS.WorldMap: WorldMap başlatıldı.
+2026-04-13 00:56:12 [DEBUG] ShinrinCS.Zone: Bölge oluşturuldu: 'Shinrin Köyü' (40x30)
+2026-04-13 00:56:12 [INFO] ShinrinCS.TileMap: Köy haritası oluşturuldu: 40x30
+2026-04-13 00:56:12 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(80, 80)
+2026-04-13 00:56:12 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Tanaka' (rol: merchant)
+2026-04-13 00:56:12 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Yuki' (rol: quest_giver)
+2026-04-13 00:56:12 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Sakura' (rol: healer)
+2026-04-13 00:56:12 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(8, 8)
+2026-04-13 00:56:12 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Orman Slime' (slime) pos=(30, 20)
+2026-04-13 00:56:12 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Oni' (oni) pos=(35, 8)
+2026-04-13 00:56:12 [DEBUG] ShinrinCS.WorldMap: Bölge eklendi: 'shinrin_village'
+2026-04-13 00:56:12 [INFO] ShinrinCS.WorldMap: Bölge yüklendi: 'shinrin_village'
+2026-04-13 00:56:12 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'world'
+2026-04-13 00:56:20 [INFO] ShinrinCS.DialogueSystem: Diyalog başlatıldı (2 satır)
+2026-04-13 00:56:20 [INFO] ShinrinCS.NPC: NPC 'Tanaka' ile etkileşim (merchant)
+2026-04-13 00:56:25 [INFO] ShinrinCS.DialogueSystem: Diyalog kapatıldı.
+2026-04-13 00:56:28 [INFO] ShinrinCS.DialogueSystem: Diyalog başlatıldı (4 satır)
+2026-04-13 00:56:28 [INFO] ShinrinCS.NPC: NPC 'Yuki' ile etkileşim (quest_giver)
+2026-04-13 00:56:37 [INFO] ShinrinCS.DialogueSystem: Diyalog seçimi: 'Kabul ediyorum!'
+2026-04-13 00:56:41 [INFO] ShinrinCS.DialogueSystem: Diyalog kapatıldı.
+2026-04-13 00:56:42 [INFO] ShinrinCS.InventoryScene: Envanter ekranı açıldı.
+2026-04-13 00:56:42 [INFO] ShinrinCS.SceneManager: Sahne yığına eklendi → 'inventory' (yığın: 1)
+2026-04-13 00:56:56 [INFO] ShinrinCS.InventoryScene: Envanter ekranı kapatıldı.
+2026-04-13 00:56:56 [INFO] ShinrinCS.SceneManager: Önceki sahneye dönüldü (yığın: 0)
+2026-04-13 00:57:10 [INFO] ShinrinCS.DialogueSystem: Diyalog başlatıldı (2 satır)
+2026-04-13 00:57:10 [INFO] ShinrinCS.NPC: NPC 'Sakura' ile etkileşim (healer)
+2026-04-13 00:57:10 [INFO] ShinrinCS.NPC: Şifacı 'Sakura' oyuncuyu iyileştirdi.
+2026-04-13 00:57:12 [INFO] ShinrinCS.DialogueSystem: Diyalog kapatıldı.
+2026-04-13 00:57:24 [INFO] ShinrinCS.Interactable: 'Köy Tabelası' ile etkileşim (sign)
+2026-04-13 00:57:24 [INFO] ShinrinCS.Interactable: Levha: 'Shinrin Köyü'ne Hoş Geldiniz!'
+2026-04-13 00:57:24 [INFO] ShinrinCS.DialogueSystem: Diyalog başlatıldı (1 satır)
+2026-04-13 00:57:26 [INFO] ShinrinCS.DialogueSystem: Diyalog kapatıldı.
+2026-04-13 00:57:42 [INFO] ShinrinCS.Interactable: 'Hazine Sandığı' ile etkileşim (chest)
+2026-04-13 00:57:42 [INFO] ShinrinCS.Interactable: Sandık boş.
+2026-04-13 00:57:45 [INFO] ShinrinCS.InventoryScene: Envanter ekranı açıldı.
+2026-04-13 00:57:45 [INFO] ShinrinCS.SceneManager: Sahne yığına eklendi → 'inventory' (yığın: 1)
+2026-04-13 00:57:55 [INFO] ShinrinCS.InventoryScene: Envanter ekranı kapatıldı.
+2026-04-13 00:57:55 [INFO] ShinrinCS.SceneManager: Önceki sahneye dönüldü (yığın: 0)
+2026-04-13 00:58:01 [INFO] ShinrinCS.NPC: NPC 'Tanaka' ile etkileşim (merchant)
+2026-04-13 00:58:09 [INFO] ShinrinCS.PauseScene: Duraklatma menüsü açıldı.
+2026-04-13 00:58:09 [INFO] ShinrinCS.SceneManager: Sahne yığına eklendi → 'pause' (yığın: 1)
+2026-04-13 00:58:11 [INFO] ShinrinCS.PauseScene: Pause menü seçimi: 'Envanter'
+2026-04-13 00:58:11 [INFO] ShinrinCS.InventoryScene: Envanter ekranı açıldı.
+2026-04-13 00:58:11 [INFO] ShinrinCS.SceneManager: Sahne yığına eklendi → 'inventory' (yığın: 2)
+2026-04-13 00:58:13 [INFO] ShinrinCS.InventoryScene: Envanter ekranı kapatıldı.
+2026-04-13 00:58:13 [INFO] ShinrinCS.SceneManager: Önceki sahneye dönüldü (yığın: 1)
+2026-04-13 00:58:15 [INFO] ShinrinCS.PauseScene: Pause menü seçimi: 'Ana Menü'
+2026-04-13 00:58:15 [INFO] ShinrinCS.PauseScene: Duraklatma menüsü kapatıldı.
+2026-04-13 00:58:15 [INFO] ShinrinCS.SceneManager: Önceki sahneye dönüldü (yığın: 0)
+2026-04-13 00:58:15 [INFO] ShinrinCS.WorldScene: Dünya sahnesinden çıkıldı.
+2026-04-13 00:58:15 [DEBUG] ShinrinCS.SceneManager: Sahneden çıkıldı: 'world'
+2026-04-13 00:58:15 [INFO] ShinrinCS.TitleScene: Başlık sahnesine girildi.
+2026-04-13 00:58:15 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'title'
+2026-04-13 00:58:18 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Ayarlar'
+2026-04-13 00:58:18 [INFO] ShinrinCS.TitleScene: Ayarlar menüsü açılacak.
+2026-04-13 00:58:19 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Ayarlar'
+2026-04-13 00:58:19 [INFO] ShinrinCS.TitleScene: Ayarlar menüsü açılacak.
+2026-04-13 00:58:19 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Ayarlar'
+2026-04-13 00:58:19 [INFO] ShinrinCS.TitleScene: Ayarlar menüsü açılacak.
+2026-04-13 00:58:19 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Ayarlar'
+2026-04-13 00:58:19 [INFO] ShinrinCS.TitleScene: Ayarlar menüsü açılacak.
+2026-04-13 00:58:20 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Ayarlar'
+2026-04-13 00:58:20 [INFO] ShinrinCS.TitleScene: Ayarlar menüsü açılacak.
+2026-04-13 00:58:20 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Ayarlar'
+2026-04-13 00:58:20 [INFO] ShinrinCS.TitleScene: Ayarlar menüsü açılacak.
+2026-04-13 00:58:21 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Devam Et'
+2026-04-13 00:58:21 [INFO] ShinrinCS.TitleScene: Kayıtlı oyun yüklenecek.
+2026-04-13 00:58:23 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Çıkış'
+2026-04-13 00:58:23 [INFO] ShinrinCS.GameEngine: Oyundan çıkış istendi.
+2026-04-13 00:58:23 [INFO] ShinrinCS.GameEngine: Motor kapatılıyor...
+2026-04-13 00:58:23 [INFO] ShinrinCS.Settings: Ayarlar kaydedildi: settings.json
+2026-04-13 00:58:23 [INFO] ShinrinCS.GameEngine: Motor başarıyla kapatıldı.
+2026-04-13 00:58:23 [INFO] ShinrinCS.Main: Shinrin CS kapatıldı.
+2026-04-13 01:03:34 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 01:03:34 [INFO] ShinrinCS.Main: Shinrin CS başlatılıyor...
+2026-04-13 01:03:34 [INFO] ShinrinCS.Main: ==================================================
+2026-04-13 01:03:34 [INFO] ShinrinCS.InstallationGuard: Kurulum kaydı bulundu (registry=True, marker=True)
+2026-04-13 01:03:34 [INFO] ShinrinCS.Main: Kurulum kaydı doğrulandı — oyun başlatılıyor.
+2026-04-13 01:03:34 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 01:03:34 [INFO] ShinrinCS.GameEngine: Shinrin CS — Motor başlatılıyor...
+2026-04-13 01:03:34 [INFO] ShinrinCS.GameEngine: ==================================================
+2026-04-13 01:03:34 [INFO] ShinrinCS.Settings: Ayarlar yüklendi: settings.json
+2026-04-13 01:03:34 [INFO] ShinrinCS.InputHandler: InputHandler başlatıldı.
+2026-04-13 01:03:34 [INFO] ShinrinCS.AssetManager: AssetManager başlatıldı.
+2026-04-13 01:03:34 [INFO] ShinrinCS.Camera: Kamera başlatıldı (800x600).
+2026-04-13 01:03:34 [INFO] ShinrinCS.Renderer: Renderer başlatıldı.
+2026-04-13 01:03:34 [INFO] ShinrinCS.SceneManager: SceneManager başlatıldı.
+2026-04-13 01:03:34 [INFO] ShinrinCS.SaveManager: SaveManager başlatıldı. Dizin: saves
+2026-04-13 01:03:34 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'title'
+2026-04-13 01:03:34 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'world'
+2026-04-13 01:03:34 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'pause'
+2026-04-13 01:03:34 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'inventory'
+2026-04-13 01:03:34 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'game_over'
+2026-04-13 01:03:34 [DEBUG] ShinrinCS.SceneManager: Sahne kaydedildi: 'settings'
+2026-04-13 01:03:34 [DEBUG] ShinrinCS.GameEngine: Sahneler kaydedildi.
+2026-04-13 01:03:34 [INFO] ShinrinCS.GameEngine: Motor başarıyla başlatıldı.
+2026-04-13 01:03:34 [INFO] ShinrinCS.TitleScene: Başlık sahnesine girildi.
+2026-04-13 01:03:34 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'title'
+2026-04-13 01:03:34 [INFO] ShinrinCS.GameEngine: Oyun döngüsü başladı. FPS: 60
+2026-04-13 01:04:25 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Devam Et'
+2026-04-13 01:04:25 [WARNING] ShinrinCS.SaveManager: Kayıt dosyası bulunamadı: Slot 1
+2026-04-13 01:04:25 [WARNING] ShinrinCS.TitleScene: Kayıtlı oyun bulunamadı!
+2026-04-13 01:04:26 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Devam Et'
+2026-04-13 01:04:26 [WARNING] ShinrinCS.SaveManager: Kayıt dosyası bulunamadı: Slot 1
+2026-04-13 01:04:26 [WARNING] ShinrinCS.TitleScene: Kayıtlı oyun bulunamadı!
+2026-04-13 01:04:27 [INFO] ShinrinCS.TitleScene: Menü seçimi: 'Yeni Oyun'
+2026-04-13 01:04:27 [INFO] ShinrinCS.TitleScene: Yeni oyun başlatılıyor → WorldScene
+2026-04-13 01:04:27 [INFO] ShinrinCS.TitleScene: Başlık sahnesinden çıkıldı.
+2026-04-13 01:04:27 [DEBUG] ShinrinCS.SceneManager: Sahneden çıkıldı: 'title'
+2026-04-13 01:04:27 [INFO] ShinrinCS.WorldScene: Dünya sahnesine girildi.
+2026-04-13 01:04:27 [INFO] ShinrinCS.WorldMap: WorldMap başlatıldı.
+2026-04-13 01:04:27 [DEBUG] ShinrinCS.Zone: Bölge oluşturuldu: 'Shinrin Köyü' (40x30)
+2026-04-13 01:04:27 [INFO] ShinrinCS.TileMap: Köy haritası oluşturuldu: 40x30
+2026-04-13 01:04:27 [INFO] ShinrinCS.Player: Oyuncu oluşturuldu: 'Kaito' pos=(80, 80)
+2026-04-13 01:04:27 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Tanaka' (rol: merchant)
+2026-04-13 01:04:27 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Yuki' (rol: quest_giver)
+2026-04-13 01:04:27 [DEBUG] ShinrinCS.NPC: NPC oluşturuldu: 'Sakura' (rol: healer)
+2026-04-13 01:04:27 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Slime' (slime) pos=(8, 8)
+2026-04-13 01:04:27 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Orman Slime' (slime) pos=(30, 20)
+2026-04-13 01:04:27 [DEBUG] ShinrinCS.Enemy: Düşman oluşturuldu: 'Oni' (oni) pos=(35, 8)
+2026-04-13 01:04:27 [DEBUG] ShinrinCS.WorldMap: Bölge eklendi: 'shinrin_village'
+2026-04-13 01:04:27 [INFO] ShinrinCS.WorldMap: Bölge yüklendi: 'shinrin_village'
+2026-04-13 01:04:27 [INFO] ShinrinCS.SceneManager: Sahne değiştirildi → 'world'
+2026-04-13 01:04:33 [INFO] ShinrinCS.BattleSystem: Savaş başladı: Oyuncu vs 1 düşman
+2026-04-13 01:04:33 [INFO] ShinrinCS.WorldScene: Savaş başlatıldı!
+2026-04-13 01:04:37 [DEBUG] ShinrinCS.Character: Orman Slime hasar aldı: 11 (ham: 12, savunma: 3) → HP: 44/55
+2026-04-13 01:04:37 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 11 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:39 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:47 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:48 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:49 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:51 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:52 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:53 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:54 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:55 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:04:56 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:05:02 [INFO] ShinrinCS.BattleSystem: Savaş başladı: Oyuncu vs 1 düşman
+2026-04-13 01:05:02 [INFO] ShinrinCS.WorldScene: Savaş başlatıldı!
+2026-04-13 01:05:04 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:05:09 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:05:10 [INFO] ShinrinCS.BattleSystem: Savaş başladı: Oyuncu vs 1 düşman
+2026-04-13 01:05:10 [INFO] ShinrinCS.WorldScene: Savaş başlatıldı!
+2026-04-13 01:05:12 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:05:13 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:05:16 [DEBUG] ShinrinCS.Player: Oyuncu → Orman Slime saldırdı: 0 hasar (ATK:12 + bonus:0)
+2026-04-13 01:05:21 [INFO] ShinrinCS.GameEngine: Oyundan çıkış istendi.
+2026-04-13 01:05:21 [INFO] ShinrinCS.GameEngine: Motor kapatılıyor...
+2026-04-13 01:05:21 [INFO] ShinrinCS.Settings: Ayarlar kaydedildi: settings.json
+2026-04-13 01:05:21 [INFO] ShinrinCS.GameEngine: Motor başarıyla kapatıldı.
+2026-04-13 01:05:21 [INFO] ShinrinCS.Main: Shinrin CS kapatıldı.
